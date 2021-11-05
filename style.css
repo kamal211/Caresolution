@@ -1,0 +1,158 @@
+#bloc-page
+{
+    margin: auto;
+    width: 1000px;
+}
+.header
+{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    background-image: linear-gradient(to right top, #a95e6d, #bb7584, #ce8d9b, #e0a5b3, #f2becb);
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
+    box-shadow: 10px 10px -10px 21px rgba(0,0,0,0.35);
+    
+    }
+    
+.header img
+{
+  display: block;
+  margin: 0 auto;
+  padding-left: 7%;
+  width: 50%;
+}
+.button-action
+{
+    display:flex;
+    flex-direction: row-reverse;
+    font-size: 3em;
+}
+.button-action i
+{
+    color: #000;
+}
+.button-action a
+{
+    display: block;
+    margin: 15% 10%;
+}
+.button-action a :hover
+{ 
+    color: #A95E6D;
+  
+}
+.description1
+{ 
+    display: flex;
+}
+.description1 h1
+{
+    font-size: 2em;
+    font-family: 'Quintessential', cursive;
+    color: #68676D;
+    margin-left: 15px;
+    
+    
+  }
+.description1 video
+{
+    margin: 10px auto;
+}
+.description1 img{
+    width: 30%;
+    margin-top: 2%;
+}
+.description2
+{
+    display: flex;
+}
+#img1
+{
+    width: 30%;
+    margin-bottom: 20%;
+    
+}
+#img2
+{
+    width: 40%;
+    margin-bottom: 20%;
+    
+}
+.article
+{
+ display: block;
+ margin-left: 5%;
+ margin-top: -2%;
+ 
+}
+.article h1
+{
+    font-family: 'Raleway', sans-serif;
+    color:#e0a5b3;
+}
+.small-article
+{
+    margin-left: 12%;
+    
+}
+.small-article p
+{
+    margin: -5% -22%;
+    font-family: 'Raleway', sans-serif;
+    color: #6C6B71;
+}
+.small-article ul
+{
+    margin-top: 10%;
+    font-family: 'Raleway', sans-serif;
+    color: #6C6B71;
+}
+#patte-btn i
+{
+    color: #A95E6D;
+    font-size: 10em;
+    margin-left: 10%;
+    
+
+}
+#patte-btn a :hover
+{
+    color: #e0a5b3 ;
+}
+#Conversion
+{
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top:-15%;
+    margin-left: 19%;
+}
+
+#copyright
+{
+    background-color: #000;
+}
+#copyright p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #DDDDDD;
+}
+ 
+
+@media screen and (max-width:1100px)
+{
+    .description1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .description2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
